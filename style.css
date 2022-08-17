@@ -1,0 +1,73 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Times New Roman", Times, serif;
+  box-sizing: border-box;
+}
+body {
+  background: aliceblue;
+}
+.card-wrapper {
+  width: 400px;
+  margin: 100px auto;
+  overflow: hidden;
+  padding: 10px;
+  box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.img-card {
+  width: 100%;
+  position: relative;
+}
+.img-card img {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.img-card img:hover {
+  filter: grayscale();
+}
+#img_rating {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: cyan;
+  font-weight: bold;
+  padding: 10px;
+}
+#rottenrating {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background: orange;
+  font-weight: bold;
+  padding: 10px;
+}
+.card-details h1 {
+  font-weight: 500;
+  margin: 10px 0px;
+}
+.fi {
+  color: orangered;
+  margin: 10px 0px;
+}
+.card-details p {
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.5rem;
+}
+#tailer_button {
+  display: block;
+  padding: 10px 0px;
+  background: rgba(0, 174, 214, 0.3);
+  text-align: center;
+  text-decoration: none;
+  color: rgb(0, 174, 214);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 10px 0px;
+}
+.fa-youtube {
+  color: red;
+  margin-right: 10px;
+}
